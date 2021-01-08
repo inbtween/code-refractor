@@ -10,7 +10,7 @@
 
 <body>
     <!-- added header instead of div -->
-    <header class="header">
+    <header>
         <h1>Hori<span class="seo">seo</span>n</h1>
         <!-- added nav instead of div -->
         <nav>
@@ -29,34 +29,35 @@
     </header>
     <!-- added figure instead of div -->
     <figure class="hero"></figure>
-    <!-- added main and figcaption instead of div -->
+    <!-- added main and section instead of div -->
     <main class="content">
         <!-- added alt tags to the images -->
-        <figcaption class="search-engine-optimization">
+        <section class="services">
             <img src="assets/images/search-engine-optimization.jpg" alt="SEO Notebook and lapton on a desk" class="float-left" />
             <h2>Search Engine Optimization</h2>
             <p>
                 The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
             </p>
-        </figcaption>
-        <figcaption id="online-reputation-management" class="online-reputation-management">
+        </section>
+        <!-- changed class="services" for all below for easy css style -->
+        <section id="online-reputation-management" class="services">
             <img src="assets/images/online-reputation-management.jpg" alt="reputation graph on a laptop" class="float-right" />
             <h2>Online Reputation Management</h2>
             <p>
                 The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
             </p>
-        </figcaption>
-        <figcaption id="social-media-marketing" class="social-media-marketing">
+        </section>
+        <section id="social-media-marketing" class="services">
             <img src="assets/images/social-media-marketing.jpg" alt="conference table with different social media shout outs" class="float-left" />
             <h2>Social Media Marketing</h2>
             <p>
                 Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
             </p>
-        </figcaption>
+        </section>
     </main>
-    <!-- added aside and article instead of div -->
+    <!-- added aside and article instead of div. Changed article class="benefit" to all below for easier css style-->
     <aside class="benefits">
-        <article class="benefit-lead">
+        <article class="benefit">
             <h3>Lead Generation</h3>
             <!-- added alt tags to the images -->
             <img src="assets/images/lead-generation.png" alt="half gear with a down arrow leading to money" />
@@ -64,14 +65,14 @@
                 Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
             </p>
         </article>
-        <article class="benefit-brand">
+        <article class="benefit">
             <h3>Brand Awareness</h3>
             <img src="assets/images/brand-awareness.png" alt="a lightbulb expanding vibrating waves on a body" />
             <p>
                 Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
             </p>
         </article>
-        <article class="benefit-cost">
+        <article class="benefit">
             <h3>Cost Management</h3>
             <img src="assets/images/cost-management.png" alt="a gear with dollar signs"></img>
             <p>
